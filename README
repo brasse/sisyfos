@@ -1,0 +1,10 @@
+Indroduction
+------------
+One player Pong.
+
+Requirements
+------------
+pyglet 1.1.1, http://www.pyglet.org/
+pybox2d 2.0.2b1, http://pybox2d.googlecode.com/
+
+
