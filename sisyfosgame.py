@@ -190,7 +190,7 @@ class Sisyfos(object):
     def draw_circle(self, shape):
         circle = shape.asCircle()
         glBegin(GL_TRIANGLE_FAN)
-        steps = 10
+        steps = 20
         radius = circle.GetRadius()
         for i in xrange(steps + 1):
             f = i / float(steps) * 2 * math.pi

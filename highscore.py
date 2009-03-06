@@ -36,7 +36,7 @@ def load(settings_path):
         with open(file_path) as f:
             return pickle.load(f)
     else:
-        None
+        return None
 
 def save(settings_path, list):
     file_path = os.path.join(settings_path, HIGH_SCORE_FILE)
